@@ -1933,6 +1933,7 @@ input, select, textarea {
 			width: 45em;
 			max-width: calc(100% - 4em);
 			margin: 0 auto;
+			opacity: 0.9;
 		}
 
 			.main > .content > :last-child {
@@ -2081,7 +2082,7 @@ input, select, textarea {
 		@media screen and (max-width: 1920px) {
 
 			.main.style2 .content {
-				width: 40%;
+				width: 50%;
 			}
 
 		}
@@ -2247,14 +2248,14 @@ input, select, textarea {
 		background: url("images/overlay.png"), url("../../images/intro.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background-position: top left, top center;
 		background-repeat: repeat, no-repeat;
 	}
 
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: url("images/overlay.png"), url("../../images/one.gif");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2263,7 +2264,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/two.gif");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2310,3 +2311,11 @@ input, select, textarea {
 			}
 
 		}
+
+		/* hackathon */
+		.hackathon {
+			width: 98%;
+			padding: 10px 10px 20px 10px;
+			background-color: white;
+			box-shadow: 10px 10px 5px #aaaaaa;
+		  }
